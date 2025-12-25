@@ -1,0 +1,17 @@
+timezone: "America/Sao_Paulo"
+
+business_hours:
+  start: 9
+  end: 18
+
+anomalous_hours:
+  start: 22
+  end: 6
+
+thresholds:
+  failed_logins: 3
+  failure_window_minutes: 5
+  correlation_window_minutes: 30
+
+persistence:
+  incident_file: "incidents.json"
